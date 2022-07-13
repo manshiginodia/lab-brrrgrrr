@@ -156,27 +156,27 @@ function renderIngredientsBoard(){
   if(!state.Patty)
     item[0].innerHTML = " ";
   else
-    item[0].innerHTML = "Patty  " + ingredients.Patty;
+    item[0].innerHTML = "Patty  " 
   
   if(!state.Cheese)
     item[1].innerHTML = " ";
   else
-    item[1].innerHTML = "Cheese  " + ingredients.Cheese;
+    item[1].innerHTML = "Cheese  " 
 
   if(!state.Tomatoes)
     item[2].innerHTML = " ";
   else
-    item[2].innerHTML = "Tomatoes  " + ingredients.Tomatoes;
+    item[2].innerHTML = "Tomatoes  " 
 
   if(!state.Onions)
     item[3].innerHTML = " ";
   else
-    item[3].innerHTML = "Onions  " + ingredients.Onions;
+    item[3].innerHTML = "Onions  " 
 
   if(!state.Lettuce)
     item[4].innerHTML = " ";
   else
-    item[4].innerHTML = "Lettuce  " + ingredients.Lettuce;
+    item[4].innerHTML = "Lettuce  " 
 }
 //Judgement 1
 //In the p element having price-details as the class, display the calculated
